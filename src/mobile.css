@@ -1,0 +1,96 @@
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+
+.icon_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.icon_nav .icon{
+    font-size: 40px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 20px;
+}
+.xxx{
+    font-size: 70px;
+}
+
+.mobi-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.mobi-header h1{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mobi-my_skils{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobi-my_skils h3{ 
+    color: white;
+    margin: 10px;
+}
+
+.mobi-texnoligis{
+    color: white;
+}
+
+.mobi-sotset a{
+    margin: 7px;
+    font-size: 23px;
+    margin: 10px;
+}
+
+.mobi-sotset h3{
+    color: white
+}
+
+.mobi-sotset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobi-my_photo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    margin: 60px;
+
+}

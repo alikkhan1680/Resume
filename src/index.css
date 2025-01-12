@@ -25,6 +25,7 @@ html {
   margin: 0;
 }
 
+
 html {
   background: linear-gradient(to right, rgb(247, 190, 190),  rgb(200, 231, 241), rgb(185, 248, 185));
   height: 100%;
@@ -34,4 +35,11 @@ body {
   height: 100%;
 }
 
-
+@media(max-width: 600px){
+  html{
+  background: linear-gradient(to right, rgb(54, 54, 54),  rgb(90, 89, 89), rgb(156, 155, 155))
+}
+body{
+  overflow-x: hidden;
+}
+}
