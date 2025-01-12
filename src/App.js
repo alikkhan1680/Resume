@@ -102,10 +102,10 @@ function App() {
 
                   <div className='sotset'>
                        <h3>_________ijtimoiy Tarmoqlarim :</h3>
-                       <a href='telegram.com'><FaTelegram /></a>
-                       <a href='instagram.com'> <PiInstagramLogoDuotone /> </a>
-                       <a href='linkdin.com'><CiLinkedin /></a>
-                       <a href='github.com'><FaGithubAlt /></a>
+                       <a href='https://t.me/Mirzayev717'><FaTelegram /></a>
+                       <a href='https://www.instagram.com/husniddin_dewos/'> <PiInstagramLogoDuotone /> </a>
+                       <a href='https://www.linkedin.com/in/husniddin-mirzayev-312903237/'><CiLinkedin /></a>
+                       <a href='https://github.com/alikkhan1680'><FaGithubAlt /></a>
                   </div>
               </div>
               <div className='my_photo'>
@@ -167,10 +167,10 @@ function App() {
                 </div>                
             </div>
             <h3>_______ijtimoiy Tarmoqlar :</h3>
-                       <a href='telegram.com'><FaTelegram /></a>
-                       <a href='instagram.com'> <PiInstagramLogoDuotone /> </a>
-                       <a href='linkdin.com'><CiLinkedin /></a>
-                       <a href='github.com'><FaGithubAlt /></a>
+                       <a href='https://t.me/Mirzayev717'><FaTelegram /></a>
+                       <a href='https://www.instagram.com/husniddin_dewos/'> <PiInstagramLogoDuotone /> </a>
+                       <a href='https://www.linkedin.com/in/husniddin-mirzayev-312903237/'><CiLinkedin /></a>
+                       <a href='https://github.com/alikkhan1680'><FaGithubAlt /></a>
                   
             </div>
           
