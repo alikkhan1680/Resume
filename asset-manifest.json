@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/alikkhan1680/Resume/static/css/main.16ae8bff.css",
+    "main.js": "/alikkhan1680/Resume/static/js/main.13683e95.js",
+    "static/media/my_photo.jpg": "/alikkhan1680/Resume/static/media/my_photo.81daad08408a95497124.jpg",
+    "index.html": "/alikkhan1680/Resume/index.html",
+    "main.16ae8bff.css.map": "/alikkhan1680/Resume/static/css/main.16ae8bff.css.map",
+    "main.13683e95.js.map": "/alikkhan1680/Resume/static/js/main.13683e95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16ae8bff.css",
+    "static/js/main.13683e95.js"
+  ]
+}
