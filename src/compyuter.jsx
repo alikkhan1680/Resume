@@ -141,7 +141,7 @@ function Compyuter() {
               <div className="My-aboute">
                   <h1 style={{fontSize: "60px", color:"black",}}> Aboute </h1>
                   <h1><b style={{color: 'black'}}>Companiy : </b>Red tag   <b>|</b> Frelanser<b></b> </h1>
-                  <p>men hozirda oddiy dasturchi kitobhon har ishda rivojlanishga intiliuvch 
+                  <p>Men hozirda oddiy dasturchi kitobhon har ishda rivojlanishga intiliuvch 
                       oddiy hayot deb atalmish dargohda tahsil olayotgan inson lekin har qanday 
                       ishlarga qiziquvchi lekin hozirda o'z yo'linni quriishda harakat qilayotgan 
                       inson men react.js dan boshlab hozirda paython ortidan ketayotgan junior 
@@ -150,7 +150,7 @@ function Compyuter() {
               </div>
           </div>
 
-          <div id="myproject" className='my_projects'>             
+          <div className='my_projects'>             
                 <h1>My Projects</h1>
                 <div className='box'>
                   <button onClick={prevSlide}className='button_content'><GrFormPrevious /></button>

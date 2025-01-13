@@ -1,4 +1,7 @@
-
+.container{
+    width: 90%;
+    margin: auto;
+}
 
 
 .navbar{
@@ -12,6 +15,7 @@
 .icon_nav{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 70px;
     height: 50px;
@@ -20,7 +24,7 @@
 }
 
 .icon_nav .icon{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 
@@ -87,10 +91,76 @@
 }
 
 .mobi-my_photo img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid blueviolet;
-    margin-left: 70px;
+    margin-left: 90px;
+}
+
+
+
+/* ////////////////////////aboute////////////////////// */
+
+.mobi-aboute{
+    margin: 50px auto;
 
 }
+
+.mobi-aboute h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+.colors{
+    background: linear-gradient(to right, rgb(0, 38, 255), rgb(172, 34, 53), rgb(30, 36, 18));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobi-aboute p{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+  .mobi-my_projects h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+  .mobi-companies{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+  }
+  
+.mobi-companies h1{
+    display: flex;
+    justify-content: center;
+}
+
+  .mobi-container_company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobi-con{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .mobi-con h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
