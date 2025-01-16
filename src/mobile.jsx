@@ -1,10 +1,10 @@
 import './mobile.css'
-import { BsListUl } from "react-icons/bs";
 import { PiInstagramLogoDuotone } from "react-icons/pi";
 import { FaTelegram } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import MY_photo from "./img/my_photo.jpg";
+import { BiSortDown } from "react-icons/bi";
 
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
@@ -12,6 +12,8 @@ import React, {useEffect, useState} from 'react';
 import my_project from "./img/my_project.jpeg"
 import Exemple1 from "./img/download.jpeg";
 import Exemple2 from "./img/download.png";
+const FILE_RESUME_pdf = "http://localhost:3000/resume.pdf"
+const FILE_RESUME_rtf = "http://localhost:3000/resume.rtf"
 
 
 
@@ -21,6 +23,18 @@ import Exemple2 from "./img/download.png";
 function Mobile(){
 
     const [currentSlide, setcurrentSlide] = useState(0)
+    const [isResumeVisible, setIsResumeVisible] = useState(false);
+    
+
+    // Rezume ko'rsatish
+ const showResume = () => {
+   setIsResumeVisible(true);
+ };
+
+ const closeResume = () => {
+    setIsResumeVisible(false);
+  };
+
 
     const slides = [
         my_project,
@@ -38,9 +52,27 @@ function Mobile(){
         setcurrentSlide( (prev) => (prev - 1 + slides.length) % slides.length)
     }
 
+    const downlodFileAtURL = (url)=>{
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = url;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+
+    }
+
     return (
         <>
         <div className='container'>
+                <div className={`resume-modal ${isResumeVisible ? 'show' : ''}`}>
+                    <div className="resume-content">
+                            <button onClick={()=>{downlodFileAtURL(FILE_RESUME_pdf)}}>Download Resume.pdf</button>
+                            <button onClick={()=>{downlodFileAtURL(FILE_RESUME_rtf)}}>Download Resume.rtf</button>
+                            <button style={{background: "red"}} onClick={closeResume}>Close</button>
+                    </div>
+                 </div>
             <div>
                 <nav className='navbar'>
                     <div className='logo'> 
@@ -52,7 +84,7 @@ function Mobile(){
                             <b>Husnddin</b>
                         </div>                
                 </div>
-                <div className='icon_nav'><b>Resume</b><BsListUl className='icon'/></div>
+                <div onClick={showResume} className='icon_nav'><b >Resume</b><BiSortDown className='icon'/></div>
                 </nav>
             </div> {/*end navbar */}
 

@@ -12,27 +12,17 @@ import { GrFormPrevious } from "react-icons/gr";
 import React, {useEffect, useState} from 'react';
 
 
+const FILE_RESUME_pdf = "http://localhost:3000/resume.pdf"
+const FILE_RESUME_rtf = "http://localhost:3000/resume.rtf"
+
+
+
+
+
 function Compyuter() {
     const [currentSlide, setcurrentSlide] = useState(0)
     const [isResumeVisible, setIsResumeVisible] = useState(false);
-
-    const [windowSize, setwindowsSize] = useState({width: window.innerWidth, height: window.innerHeight})
-    useEffect(()=> {
-        const handleResize  = () => {
-            setwindowsSize({
-                width: window.innerWidth,
-                height: window.innerHeight
-            })
-        }
-        window.addEventListener('resize', handleResize);
-
-    // Cleanup: effectdan chiqish uchun event listenerni olib tashlash
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-    }, [])
     
-
 
      // Rezume ko'rsatish
   const showResume = () => {
@@ -61,23 +51,25 @@ function Compyuter() {
     }
 
 
+    const downlodFileAtURL = (url)=>{
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = url;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+
+    }
   return (
-    <div className="compyuter">
-            {console.log(windowSize.width)}
-            
+    
+   
+    <div className="compyuter">            
                 <div className={`resume-modal ${isResumeVisible ? 'show' : ''}`}>
                     <div className="resume-content">
-                        <h2>My Resume</h2>
-                            <ul>
-                                <li>Full Name: Husniddin Mirzayev</li>
-                                <li>Skills: React, Python, Django, HTML, CSS</li>
-                                <li>Experience: Junior Developer</li>
-                                <li>Location: Uzbekistan</li>
-                            </ul>
-                        <a href="/path/to/resume.pdf" download>
-                            <button>Download Resume</button>
-                        </a>
-                        <button onClick={closeResume}>Close</button>
+                            <button onClick={()=>{downlodFileAtURL(FILE_RESUME_pdf)}}>Download Resume.pdf</button>
+                            <button onClick={()=>{downlodFileAtURL(FILE_RESUME_rtf)}}>Download Resume.rtf</button>
+                            <button style={{background: "red"}} onClick={closeResume}>Close</button>
                     </div>
             </div>
       
@@ -103,6 +95,7 @@ function Compyuter() {
             <div className='nav_contact'>
               <button><a href='https://www.linkedin.com/in/husniddin-mirzayev-312903237/'>Contact_Me</a></button>
             </div>
+            
           </div>
 
           <div id='header' className='header'>

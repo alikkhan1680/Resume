@@ -11,6 +11,7 @@
   },
   "homepage": "https://alikkhan1680.github.io/alikkhan1680/Resume",
 
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
