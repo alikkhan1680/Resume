@@ -10,7 +10,7 @@
 ## 📂 Loyihalarim
 - 🏆 [LeetCode Solutions](https://github.com/alikkhan1680/Leetcode_Problems)  
 - 🌐 [Portfolio Website](https://alikkhan1680.github.io/Resume/)
-- 📡 [Django API Backend](https://github.com/username/django-api)
+- 📡 
 
 ## 📫 Mening bog‘lanish sahifalarim
 - 🔗 [LinkedIn](www.linkedin.com/in/husniddin-mirzayev-312903237)
