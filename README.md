@@ -1,6 +1,6 @@
 # My Resume 🌟
 
-👋 Salom! Men [Ismingni yoz] – Full Stack Developer
+👋 Salom! Men [Husniddin] – Full Stack Developer
 
 ## 📌 Haqimda
 - 💻 Django va React bo‘yicha tajribam bor
