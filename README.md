@@ -7,10 +7,17 @@
 - 🎯 Problem-solving va algoritmlarga qiziqaman
 - 🚀 GitHub'ga loyihalarimni joylab boraman
 
+- ## 📌 Texnologiyalar
+- 🟢 Python, Django, django-restframework
+- 🔵 React, Redux, Context API
+- 🟡 PostgreSQL, SQLite
+- 🛠 Git, GitHub
+
 ## 📂 Loyihalarim
 - 🏆 [LeetCode Solutions](https://github.com/alikkhan1680/Leetcode_Problems)  
 - 🌐 [Portfolio Website](https://alikkhan1680.github.io/Resume/)
 - 📡 [Barcha loyihalarim haqida bilish uchhun](https://github.com/alikkhan1680/)
+- 📫 Menga [Telegram](https://t.me/mirzayev727)
 
 ## 📫 Mening bog‘lanish sahifalarim
 - 🔗 [LinkedIn](www.linkedin.com/in/husniddin-mirzayev-312903237)
