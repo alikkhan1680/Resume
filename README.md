@@ -8,7 +8,7 @@
 - 🚀 GitHub'ga loyihalarimni joylab boraman
 
 ## 📂 Loyihalarim
-- 🏆 [LeetCode Solutions](https://github.com/username/LeetCode)  
+- 🏆 [LeetCode Solutions](https://github.com/alikkhan1680/Leetcode_Problems)  
 - 🌐 [Portfolio Website](https://your-portfolio-link.com)  
 - 📡 [Django API Backend](https://github.com/username/django-api)
 
