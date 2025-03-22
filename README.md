@@ -22,7 +22,7 @@
 ## 📫 Mening bog‘lanish sahifalarim
 - 🔗 [LinkedIn](www.linkedin.com/in/husniddin-mirzayev-312903237)
 - 🐦 [Twitter](https://twitter.com/Husniddin)
-- 📫 [Telegram](https://web.telegram.org/k/)
+- 📫 [Telegram](https://web.telegram.org/k/#@Mirzayev717)
 - 📧 Email: alikkhan1680@gmail.com
 
 ---
