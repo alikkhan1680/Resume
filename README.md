@@ -17,11 +17,12 @@
 - 🏆 [LeetCode Solutions](https://github.com/alikkhan1680/Leetcode_Problems)  
 - 🌐 [Portfolio Website](https://alikkhan1680.github.io/Resume/)
 - 📡 [Barcha loyihalarim haqida bilish uchhun](https://github.com/alikkhan1680/)
-- 📫 Menga [Telegram](https://t.me/mirzayev727)
+
 
 ## 📫 Mening bog‘lanish sahifalarim
 - 🔗 [LinkedIn](www.linkedin.com/in/husniddin-mirzayev-312903237)
 - 🐦 [Twitter](https://twitter.com/Husniddin)
+- 📫 Menga [Telegram](https://t.me/Mirzayev717)
 - 📧 Email: alikkhan1680@gmail.com
 
 ---
